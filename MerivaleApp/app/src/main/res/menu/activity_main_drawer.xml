@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/home_icon"
+                android:title="Home" />
+    </group>
+
+    <item android:title="Organization">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_announce"
+                    android:icon="@drawable/news_icon"
+                    android:title="Announcements" />
+                <item
+                    android:id="@+id/nav_calendar"
+                    android:icon="@drawable/calendar_icon"
+                    android:title="Calendar" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Academics">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_classes"
+                    android:icon="@drawable/class_icon"
+                    android:title="Classes" />
+                <item
+                    android:id="@+id/nav_marks"
+                    android:icon="@drawable/marks_icon"
+                    android:title="Marks" />
+                <item
+                    android:id="@+id/nav_homework"
+                    android:icon="@drawable/homework_icon"
+                    android:title="Homework" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/info_icon"
+                    android:title="About The App" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
